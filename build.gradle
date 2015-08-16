@@ -12,7 +12,6 @@ dependencies {
   compile files('libs/hexdump-0.2.jar')
   compile files('libs/unix-0.5.jar')
   compile files('libs/libdbus-java-2.7.jar')
-  compile files('libs/notification-dbus-sources.jar')
 }
 
 task wrapper(type: Wrapper) {
