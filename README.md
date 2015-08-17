@@ -7,8 +7,22 @@ This project shows how to use `dbus-java` library over network.
 
 Before you build and run the example, you need to:
 
- * configure your system to publish session bus over internet,
- * change hardcoded session bus' address and port.
+ * configure your system to publish session bus over network,
+ * change hardcoded session bus' address and port to your own.
+
+
+
+dbus-java
+-----------------
+
+A library that enables using D-Bus in Java applications and provides some tools to use D-Bus from command line.
+You can find more information in [documentation](http://dbus.freedesktop.org/doc/dbus-java/) of dbus-java.
+
+The library is avaliable on
+[freedesktop page about DBusBindings](http://www.freedesktop.org/wiki/Software/DBusBindings/#java).
+
+I used that library in Android application and it needed some modifications.
+I published them in [this repository](https://github.com/rynkowsg/dbus-java).
 
 
 
